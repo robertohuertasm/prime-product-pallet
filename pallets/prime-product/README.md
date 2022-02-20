@@ -24,3 +24,12 @@ The following data should be stored on-chain:
 
 - unsolved and solved problems,
 - correct solutions.
+
+## Assumptions and restrictions
+
+Every time a user submits a problem, the prize/reward that he offers is going to be locked until someone submits a correct solution.
+
+As this was a simple implementation I didn't want to overcomplicate it so these are the current limitations:
+
+- There's no way to revoke a problem.
+- Users will be able to submit only one unsolved problem at a time. That means that if a user sends a new problem after already having sent another one which has not been solved, that will cause an error and his problem will be rejected.

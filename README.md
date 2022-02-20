@@ -1,7 +1,6 @@
 # Prime Product Pallet
 
-The purpose of this repo was to build a custom Substrate pallet which would help users to solve a particular problem.
-
+Custom Substrate pallet which would help users to solve a particular problem.
 ## The problem
 
 With the equation
