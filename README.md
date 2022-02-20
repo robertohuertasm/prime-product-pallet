@@ -1,6 +1,7 @@
 # Prime Product Pallet
 
 Custom Substrate pallet which would help users to solve a particular problem.
+
 ## The problem
 
 With the equation
